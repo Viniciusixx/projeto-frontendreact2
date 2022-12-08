@@ -11,6 +11,16 @@ export const BoxLateral = styled.div`
     margin: 20px 20px 0px 20px;
     box-shadow: rgb(189 189 100) 4px 0px 5px;
     padding-left: 10px;
+    @media screen and (max-device-width: 1074px){
+        width: 200px;
+    height: 100%;
+    border-radius: 10px;
+    padding: 0px 10px 10px 10px;
+    margin: 10px 10px 0px 10px;
+    box-shadow: rgb(189 189 100) 2px 0px 3px;
+    padding-left: 10px;
+    }
+    
 
     h2{
         color: rgb(255,153,0);
@@ -48,7 +58,10 @@ export const BoxLateralCarrinho = styled.div`
     margin: 20px 20px 0px 20px;
 
     box-shadow: rgb(189 189 100) -4px 0px 5px;
-        padding-right: 20px;
+        padding-right: 10px;
+        @media screen and (max-device-width: 1074px){
+            
+        }
     h2{
         color: rgb(255, 153, 0);
     }
@@ -201,6 +214,22 @@ display: flex;
     font-family: 'Aclonica', sans-serif;
 
   }
+
+  @media screen and (max-device-width: 1074px){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    padding: 30px 50px 20px 50px;
+    column-gap:  17px;
+    row-gap: 15px;
+    max-width: 1100px;
+    width: 540px;
+    background-color: rgba(0, 0, 0, 0.308);
+  margin-bottom: 200px;
+  border-radius: 100px 100px 100px 100px;
+  }
 `
 
 export const Img = styled.img`
@@ -246,4 +275,9 @@ export const Flextudo = styled.div`
 display: flex;
 width: 100%;
 justify-content: space-between;
+@media screen and (max-device-width: 931px){
+        width: 931px;
+        margin:0 auto;
+    }
 `
+

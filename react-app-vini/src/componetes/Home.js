@@ -10,7 +10,6 @@ import {
 import { useState, useEffect } from "react";
 import Carrinho from "./Carrinho";
 import Filtro from "./Filtro";
-import Main from "./Main/Main";
 
 function Home() {
   const produtos = [
