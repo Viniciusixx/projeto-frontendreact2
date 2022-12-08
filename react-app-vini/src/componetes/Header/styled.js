@@ -3,11 +3,17 @@ import  styled  from "styled-components";
 
 export const HeaderComplete = styled.header`
 display: flex;
+
+
   flex-direction: column;
   align-items: center;
   border: 1px solid rgb(55, 55, 55);
   border-radius: 20px;
   margin: 40px 70px 0px 70px;
+  @media screen and (max-device-width: 930px){
+    width: 791px;
+    margin: 62px ;
+  }
 `
 export const TamanhoSub = styled.header`
 display: flex;
@@ -27,6 +33,16 @@ line-height:20px;
     margin-top: 20px;
     justify-content: space-between;
     white-space: nowrap;
+    @media screen and (max-device-width: 1074px){
+      font-size: 1.8rem;
+      width: 80%;
+    }
+    @media screen and (max-device-width: 942px){
+      font-size: 1.6rem;
+    }
+    @media screen and (max-device-width: 878px){
+      font-size: 1.4rem;
+    }
 `
 export const Aha3 = styled.h3`
     list-style: none;

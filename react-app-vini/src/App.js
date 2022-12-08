@@ -4,6 +4,7 @@ import Main from "./componetes/Main/Main";
 import Header from "./componetes/Header/Header";
 import Footer from "./componetes/Footer/Footer";
 
+
 export const GlobalStyled = createGlobalStyle`
 *{
   margin: 0;
@@ -17,11 +18,14 @@ export const GlobalStyled = createGlobalStyle`
 function App() {
   return (
     <div>
+      
       <GlobalStyled/>
       <Header/>
-      <Main/>
-      <Footer/>
+      <Main/> 
+       <Footer/>
+
     </div>
+    
 
   );
 }

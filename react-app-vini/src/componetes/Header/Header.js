@@ -2,19 +2,20 @@ import React from "react";
 import { HeaderComplete, H1p3, Aha3, TamanhoSub} from "./styled";
 
 
-
 function Header() {
+
+  
     return(
         <>
         <HeaderComplete className="class1header">
         
         <H1p3 className="h1ep">
-          <div id="botoes">
+          <div  id="botoes">
             <a href="/">
               <svg
                 width="57"
                 height="57"
-                class="aaaaa"
+                className="aaaaa"
                 fill="none"
                 stroke="#ffffff"
                 stroke-linecap="round"
@@ -28,14 +29,16 @@ function Header() {
             </a>
           </div>
 
-          <h1>ASTRO DEV'S</h1>
+          <h1 style={{ cursor: "pointer" }}>ASTRO DEV'S</h1>
+
 
           <div>
-            <a href="/">
+            <a >
               <svg
+              cursor={'pointer'}
                 width="57"
                 height="57"
-                class="aaaaa"
+                className="aaaaa"
                 fill="none"
                 stroke="#ffffff"
                 stroke-linecap="round"
@@ -77,9 +80,9 @@ function Header() {
         </ul>
         
         <input type="checkbox" id="active"/>
-          <label for="active" class="menu-btn"><span></span></label>
-          <label for="active" class="close"></label>
-          <div class="wrapper">
+          <label for="active" className="menu-btn"><span></span></label>
+          <label for="active" className="close"></label>
+          <div className="wrapper">
           <ul>
           <li><a href="#">Menu</a></li>
           <li><a href="#">Contato</a></li>
@@ -88,8 +91,8 @@ function Header() {
           <li><a href="#">Dev's</a></li>
           </ul>
           </div>
-          <div class="content">
-                <div class="title"/>
+          <div className="content">
+                <div className="title"/>
 
           </div>
       </HeaderComplete>

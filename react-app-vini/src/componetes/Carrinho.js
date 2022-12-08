@@ -1,5 +1,4 @@
 import {BoxLateralCarrinho} from "./styles"
-import Home from "./Home"
 
 function Carrinho (props){
 
